@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Zaizai Groups</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="" />
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+
+       
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" href="/bootstrap/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/bootstrap/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/bootstrap/img/apple-touch-icon-114x114.png">
+
+
+
+
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+					var myCenter=new google.maps.LatLng(51.508742,-0.120850);
+		var marker;
+
+		function initialize()
+		{
+		var mapProp = {
+		  center:myCenter,
+		  zoom:5,
+		  mapTypeId:google.maps.MapTypeId.ROADMAP
+		  };
+
+		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+		var marker=new google.maps.Marker({
+		  position:myCenter,
+		  animation:google.maps.Animation.BOUNCE
+		  });
+
+		marker.setMap(map);
+		}
+
+		google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+
+
+
+
+
+        <!-- CSS code from Bootply.com editor -->
+
+        <style type="text/css">
+            body {
+                  padding-top: 50px;
+                }
+
+            .navbar-brand h3{
+                color:  #8f9296;
+				font-size: 34px;
+				font-weight: normal;
+				margin: 0;
+            }
+            .navbar-brand h3 span{
+                	color:  #446600;
+                }
+
+        </style>
+    </head>
+
+    <!-- HTML code from Bootply.com editor -->
+
+    <body>
+
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		<span class="sr-only">Toggle navigation</span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" rel="home" href="index.php"><h3>Zai<span>zai</span></h3></a>
+	</div>
+
+	<div class="collapse navbar-collapse">
+
+		<ul class="nav navbar-nav">
+			<li><a href="blog.php">Blog</a></li>
+			<li><a href="store.php">Store</a></li>
+			<li><a href="about.php">About</a></li>
+			<li><a href="contact.php">Contact</a></li>
+		</ul>
+
+		<div class="col-sm-3 col-md-3 pull-right">
+        <div class="navbar-text"> <i class="fa fa-spinner fa-pulse"></i> </div>
+		<form class="navbar-form" role="search">
+		<div class="input-group">
+			<input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+			<div class="input-group-btn">
+				<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+			</div>
+		</div>
+		</form>
+		</div>
+
+	</div>
+</div>
+
+
+<div class="container">
+  <div class="page-header">
+  
+</div>
+
+<div class="jumbotron">
+  <h1>ZaiZai Collection <small> </small></h1>
+	<p><small>... because nature loves you</small></p>
+  <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/shea-butter.jpg" alt="shea butter">
+      <div class="caption">
+        <h3>Shea Butter</h3>
+        <p>  an off-white or ivory-colored fat extracted from the nut of the African shea tree (Vitellaria paradoxa). Shea butter is a triglyceride (fat) derived mainly from stearic acid and oleic acid. It is widely used in cosmetics as a moisturizer, salve or lotion. Shea butter is edible and is used in food preparation in Africa. Occasionally, the chocolate industry uses shea butter mixed with other oils as a substitute for cocoa butter, although the taste is noticeably different.</p>
+        <p><a href="#" class="btn btn-default" role="button">Buy</a> </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/coconut.jpg" alt="coconut">
+      <div class="caption">
+        <h3>Coconut Oil</h3>
+        <p> also known as copra oil, is an edible oil extracted from the kernel or meat of mature coconuts harvested from the coconut palm (Cocos nucifera). It has various applications. Because of its high saturated fat content, it is slow to oxidize and, thus, resistant to rancidification, lasting up to six months at 24 °C (75 °F) without spoiling.
+
+Numerous health authorities advise against regular consumption of coconut oil due to its high levels of saturated fat (similar to that of animal fat) having potential to increase risk of cardiovascular disease.</p>
+        <p><a href="#" class="btn btn-default" role="button">Buy</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/spa-oil.jpg" alt="treatment oils">
+      <div class="caption">
+        <h3>Essential Oils</h3>
+        <p>are also known as volatile oils, ethereal oils, aetherolea, or simply as the oil of the plant from which they were extracted, such as oil of clove. An oil is "essential" in the sense that it contains the "essence of" the plant's fragrance—the characteristic fragrance of the plant from which it is derived. The term essential used here does not mean indispensable as with the terms essential amino acid or essential fatty acid which are so called since they are nutritionally required by a given living organism.</p>
+        <p><a href="#" class="btn btn-default" role="button">Buy</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+		</div>
+
+
+	
+			
+
+	<footer class="footer-distributed">
+
+			<div class="footer-left">
+
+				<h3>Zai<span>zai</span></h3>
+
+				<p class="footer-links">
+					<a href="index.php">Home</a>
+					·
+					<a href="blog.php">Blog</a>
+					·
+					<a href="store.php">Store</a>
+					·
+					<a href="about.php">About</a>
+					·
+					<a href="contact.php">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Zaizai &copy; 2016</p>
+			</div>
+
+			<div class="footer-center">
+
+				<div>
+					<i class="fa fa-map-marker"></i>
+					<p><span>14 Western Gateway</span> London, United Kingdom</p>
+				</div>
+
+				<div>
+					<i class="fa fa-phone"></i>
+					<a href="tel:+4420 123 4567"><p>+4420 123 4567</a></p>
+				</div>
+
+				<div>
+					<i class="fa fa-envelope"></i>
+					<p><a class="btn btn-default" href="mailto:info@zaizai.co.uk" role="button">info@zaizai.co.uk</a></p>
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p class="footer-company-about">
+					<span>About Zaizai</span>
+					Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+				</p>
+
+				<div class="footer-icons">
+
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+
+				</div>
+
+			</div>
+
+		</footer>
+
+</body>
+
+</html>
